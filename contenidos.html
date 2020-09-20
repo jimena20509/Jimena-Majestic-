@@ -1,0 +1,105 @@
+
+<div>
+    <img style="width: 100px;" height="100px" class="nada1" src="imagenes/1.png" alt="">
+    <img style="width: 100px;" height="100px" class="nada2" src="imagenes/2.jpg" alt="">
+    <img style="width: 100px;" height="100px" class="nada3" src="imagenes/3.jpg" alt="">
+    <img style="width: 100px;" height="100px" class="nada4" src="imagenes/4.jpg" alt="">
+</div>
+
+
+
+
+
+<h1>Minerales</h1>
+
+
+<div class="menu">
+    <a href="#" id='btnOro'>Oro</a>
+    <a href="#" id='btnPlata'>Plata</a>
+    <a href="#" id='btnBronce'>Bronce</a>
+    <a href="#" id='btnHierro'>Hierro</a>
+</div>
+
+<div id="conteOro">
+    <h2>Oro</h2>    
+    <p>
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "Velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occasionecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum".
+    </p>
+    <img src="https://cl.buscafs.com/www.qore.com/public/uploads/images/42461.jpg" alt="" width="250px">
+</div>
+
+
+<div id="contePlata">
+    <h2>Plata</h2>    
+    <p>
+        "Por otro lado, denunciamos con justa indignación y aversión a los hombres que están tan engañados y desmoralizados por los encantos del placer del momento, tan cegados por el deseo, que no pueden prever el dolor y la angustia que se producirán; e igual La culpa es de aquellos que fallan en su deber por debilidad de la voluntad, lo que es lo mismo que decir por rehuir el trabajo y el dolor. Estos casos son perfectamente simples y fáciles de distinguir. En una hora libre, cuando nuestro poder de elección no tiene límites. Cuando nada impide que podamos hacer lo que más nos gusta, todos los placeres deben ser bienvenidos y todos los dolores evitados, pero en ciertas circunstancias y debido a los reclamos del deber o las obligaciones de los negocios, con frecuencia ocurrirá que los placeres deben ser repudiados. y molestias aceptadas.Por lo tanto, el hombre sabio siempre mantiene en estos asuntos este principio de selección: rechaza los placeres para asegurar otros placeres mayores, o de lo contrario soporta dolores para evitar peores dolores ".
+    </p>
+    <img src="https://www.importancia.org/wp-content/uploads/Plata-300x223.jpg" alt="" width="200px">
+</div>
+
+
+<div id="conteBronce">
+    <h2>Bronce</h2>    
+    <p>
+        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et cuasi architecto beatae vitae dicta sunt explicabo. consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. , quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui en ea voluptate velit esse quam nihil molestiae consequatur,vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+    </p>
+    <img src="https://www.mecanizadossinc.com/wp-content/uploads/bfi_thumb/Bronce-material-para-los-trabajos-de-mecanizados-de-precision-okmaqs5h7fm8v72mtr2zw2nccmy5icvv60zbot6a38.jpg" alt="" width="200px">
+</div>
+
+
+<div id="conteHierro">
+    <h2>Hierro</h2>    
+    <p>
+        "En vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occasionecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum quga. rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necesitaritatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat ".
+    </p>
+    <img src="https://okdiario.com/img/2017/02/02/caracteristicas-del-hierro-su-origen-y-para-que-se-utiliza-1-652x368.jpg" alt="" width="200px">
+</div>
+
+
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/contenidos.js"></script>
+
+<script>
+
+    $(document).ready(function () {
+
+        
+        $('#conteOro').hide('slow');
+        $('#contePlata').hide('slow');
+        $('#conteBronce').hide('slow');
+        $('#conteHierro').hide('slow');
+
+
+        
+
+
+        $('#btnOro').click(function () {
+            $('#conteOro').show('slow');
+            $('#contePlata').hide('slow');
+            $('#conteBronce').hide('slow');
+            $('#conteHierro').hide('slow');
+        })
+        
+        $('#btnPlata').click(function () {
+            $('#conteOro').hide('slow');
+            $('#contePlata').show('slow');
+            $('#conteBronce').hide('slow');
+            $('#conteHierro').hide('slow');
+        })
+        
+        $('#btnBronce').click(function () {
+            $('#conteOro').hide('slow');
+            $('#contePlata').hide('slow');
+            $('#conteBronce').show('slow');
+            $('#conteHierro').hide('slow');
+        })
+        
+        $('#btnHierro').click(function () {
+            $('#conteOro').hide('slow');
+            $('#contePlata').hide('slow');
+            $('#conteBronce').hide('slow');
+            $('#conteHierro').show('slow');
+        })
+        
+    })
+</script>

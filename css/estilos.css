@@ -1,0 +1,84 @@
+
+.seleccionado{
+    background-color: darkmagenta;;
+}
+
+button:hover, p:hover{
+    cursor: pointer;
+}
+
+.menu{
+    text-align: center;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:active{
+    background-color: hotpink;
+    color: lightblue;
+}
+
+
+.contenidos{
+    border: 1px solid violet;
+    margin: 10px;
+}
+.contenidos p {
+    
+    font-size: 17pt;
+    padding: 5px;
+    margin: 12px;
+}
+
+
+p{
+    background-color: darksalmon;
+}
+p:hover{
+    background-color: limegreen;
+}
+
+.animando{
+    position: relative;
+    margin: 200px;
+
+}
+
+.texto{
+    position:absolute ;
+    top: 0;
+    left: 15px;
+
+}
+
+.barra{
+    position:absolute ;
+    width: 100px;
+    height: 2px;
+    background-color: violet;
+    top: 0;
+    animation: cuarentena 3s;
+
+}
+
+.animando:hover .barra{
+    top: 20px;
+}
+
+
+
+@keyframes cuarentena{
+    0%   { top: 10px; background-color: red;}
+    25%  { top: 100px; background-color: yellow;}
+    50%  { top: 150px; background-color: blue;}
+    100% {  top:0px;
+        left: 150px;
+        background-color: green;}
+}
